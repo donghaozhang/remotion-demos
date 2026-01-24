@@ -1,6 +1,7 @@
 [submodule "qcut"]
 	path = qcut
 	url = https://github.com/donghaozhang/qcut.git
+	branch = remotion-integration
 [submodule "remotion-repo"]
 	path = remotion-repo
 	url = https://github.com/donghaozhang/remotion.git
