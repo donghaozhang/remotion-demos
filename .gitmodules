@@ -1,0 +1,3 @@
+[submodule "qcut"]
+	path = qcut
+	url = https://github.com/donghaozhang/qcut.git
