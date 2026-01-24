@@ -240,12 +240,12 @@ Key features:
 
 ### Phase 1 Success Criteria Checklist
 
-- [ ] Remotion dependencies installed without conflicts
-- [ ] Type definitions compile without errors
-- [ ] Remotion store initializes correctly
-- [ ] Player wrapper renders in QCut
-- [ ] Sample Remotion composition plays
-- [ ] Player responds to external seek commands
+- [x] Remotion dependencies installed without conflicts
+- [x] Type definitions compile without errors
+- [x] Remotion store initializes correctly
+- [x] Player wrapper renders in QCut
+- [x] Sample Remotion composition plays
+- [x] Player responds to external seek commands
 
 ---
 
@@ -461,12 +461,12 @@ interface SyncManager {
 
 ### Phase 2 Success Criteria Checklist
 
-- [ ] Remotion elements appear on timeline
-- [ ] Elements can be moved along timeline
-- [ ] Elements can be resized (duration change)
-- [ ] Scrubbing updates Remotion preview
-- [ ] Multiple Remotion elements supported
-- [ ] Elements respect z-order based on tracks
+- [x] Remotion elements appear on timeline
+- [x] Elements can be moved along timeline
+- [x] Elements can be resized (duration change)
+- [x] Scrubbing updates Remotion preview
+- [x] Multiple Remotion elements supported
+- [x] Elements respect z-order based on tracks
 
 ---
 
@@ -646,11 +646,11 @@ function generateAnimatedProp(keyframes: Keyframe[]): (frame: number) => unknown
 
 ### Phase 3 Success Criteria Checklist
 
-- [ ] Props panel shows component properties
-- [ ] Editing props updates preview in real-time
-- [ ] Schema validation prevents invalid values
-- [ ] All basic prop types have editors
-- [ ] Basic keyframe animation works
+- [x] Props panel shows component properties
+- [x] Editing props updates preview in real-time
+- [x] Schema validation prevents invalid values
+- [x] All basic prop types have editors
+- [x] Basic keyframe animation works
 
 ---
 
