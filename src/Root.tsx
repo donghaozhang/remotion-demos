@@ -4,6 +4,7 @@ import { HelloWorld, myCompSchema } from "./HelloWorld";
 import { Logo, myCompSchema2 } from "./HelloWorld/Logo";
 import { ClaudeCodeDemo, TOTAL_DURATION } from "./ClaudeCodeDemo";
 import { QCutDemo, QCUT_TOTAL_DURATION } from "./QCutDemo";
+import { SkillsDemo, SKILLS_DEMO_DURATION } from "./SkillsDemo";
 
 // Each <Composition> is an entry in the sidebar!
 
@@ -25,6 +26,16 @@ export const RemotionRoot: React.FC = () => {
         id="QCutDemo"
         component={QCutDemo}
         durationInFrames={QCUT_TOTAL_DURATION}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* Skills Demo - npx skills add remotion-dev/remotion */}
+      <Composition
+        id="SkillsDemo"
+        component={SkillsDemo}
+        durationInFrames={SKILLS_DEMO_DURATION}
         fps={30}
         width={1920}
         height={1080}
