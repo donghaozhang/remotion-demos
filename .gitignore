@@ -11,3 +11,13 @@ docs/qcut-remotion-integration/pending/
 
 # Playwright MCP screenshots
 .playwright-mcp/
+
+# IDE/Editor configurations
+.windsurf/
+.trae/
+.kiro/
+.cursor/
+.codex/
+.gemini/
+.agent/
+.agents/
