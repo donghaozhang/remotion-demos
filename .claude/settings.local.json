@@ -41,7 +41,23 @@
       "Bash(ls -la \"C:\\\\Users\\\\zdhpe\\\\Desktop\\\\remotion\\\\qcut\\\\qcut\\\\apps\\\\web\\\\dist\\\\assets\"\" 2>/dev/null || dir /B \"C:UserszdhpeDesktopremotionqcutqcutappswebdistassets \")",
       "Bash(tee:*)",
       "Bash(curl:*)",
-      "Bash(npm run build:*)"
+      "Bash(npm run build:*)",
+      "Bash(timeout:*)",
+      "mcp__playwright__browser_navigate",
+      "Bash(npx playwright test:*)",
+      "mcp__playwright__browser_snapshot",
+      "mcp__playwright__browser_wait_for",
+      "mcp__playwright__browser_take_screenshot",
+      "mcp__playwright__browser_console_messages",
+      "mcp__playwright__browser_click",
+      "mcp__playwright__browser_press_key",
+      "mcp__playwright__browser_close",
+      "mcp__playwright__browser_evaluate",
+      "mcp__playwright__browser_type",
+      "Bash(gh pr create:*)",
+      "Bash(git tag:*)",
+      "mcp__context7__resolve-library-id",
+      "mcp__context7__query-docs"
     ]
   }
 }
