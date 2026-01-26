@@ -85,7 +85,68 @@ src/
 - `qcut/` - QCut video editor (branch: `remotion-integration`)
 - `remotion-repo/` - Reference Remotion repository
 
-See `REMOTION_QCUT_INTEGRATION_PLAN.md` for integration details.
+See `docs/qcut-remotion-integration/` for integration documentation.
+
+## How to Build
+
+### Remotion Project (this repo)
+
+```bash
+# Install dependencies
+npm install
+
+# Start Remotion Studio for development
+npm run dev
+
+# Build for production
+npm run build
+
+# Render a video
+npx remotion render <CompositionId> output.mp4
+```
+
+### QCut Submodule
+
+```bash
+# Navigate to QCut
+cd qcut/qcut
+
+# Install dependencies
+bun install
+
+# Build QCut
+bun run build
+
+# Run in development mode (browser)
+bun run dev
+
+# Run Electron app (desktop)
+bun run electron:dev
+```
+
+### Full Setup from Scratch
+
+```bash
+# Clone with submodules
+git clone --recursive https://github.com/donghaozhang/remotion-demos.git
+cd remotion-demos
+
+# Or if already cloned, init submodules
+git submodule update --init --recursive
+
+# Install Remotion dependencies
+npm install
+
+# Install QCut dependencies
+cd qcut/qcut && bun install && cd ../..
+
+# Build QCut
+cd qcut/qcut && bun run build && cd ../..
+
+# Now you can run either:
+# - Remotion Studio: npm run dev
+# - QCut Electron: cd qcut/qcut && bun run electron:dev
+```
 
 ## Video Specifications
 

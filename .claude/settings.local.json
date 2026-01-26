@@ -40,7 +40,8 @@
       "Bash(bun remove:*)",
       "Bash(ls -la \"C:\\\\Users\\\\zdhpe\\\\Desktop\\\\remotion\\\\qcut\\\\qcut\\\\apps\\\\web\\\\dist\\\\assets\"\" 2>/dev/null || dir /B \"C:UserszdhpeDesktopremotionqcutqcutappswebdistassets \")",
       "Bash(tee:*)",
-      "Bash(curl:*)"
+      "Bash(curl:*)",
+      "Bash(npm run build:*)"
     ]
   }
 }
