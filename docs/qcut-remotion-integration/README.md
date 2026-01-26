@@ -16,6 +16,7 @@ Modify QCut to support rendering both native QCut components AND Remotion compon
 | [03-component-bridge.md](./03-component-bridge.md) | Bridging QCut timeline to Remotion |
 | [04-export-engine.md](./04-export-engine.md) | Unified export system |
 | [05-implementation-phases.md](./05-implementation-phases.md) | Step-by-step implementation plan |
+| [06-remotion-rendering-internals.md](./06-remotion-rendering-internals.md) | **How Remotion renders** - Internal pipeline and why Canvas won't work |
 | [TECHNICAL-CHALLENGES.md](./TECHNICAL-CHALLENGES.md) | **Why integration is hard** - Deep dive into technical challenges |
 | [TROUBLESHOOTING.md](./TROUBLESHOOTING.md) | Common issues and fixes |
 | [IMPLEMENTATION-PLAN.md](./IMPLEMENTATION-PLAN.md) | Current implementation status and tasks |
