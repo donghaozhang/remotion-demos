@@ -65,7 +65,10 @@
       "Bash(explorer \"d:\\\\AI_play\\\\AI_Code\\\\build_qcut\")",
       "Bash(tasklist:*)",
       "Bash(taskkill:*)",
-      "Bash(powershell -Command \"Stop-Process -Name ''QCut AI Video Editor'' -Force -ErrorAction SilentlyContinue; Start-Sleep -Seconds 3\")"
+      "Bash(powershell -Command \"Stop-Process -Name ''QCut AI Video Editor'' -Force -ErrorAction SilentlyContinue; Start-Sleep -Seconds 3\")",
+      "Bash(git pull:*)",
+      "Bash(git merge:*)",
+      "Bash(git rev-parse:*)"
     ]
   }
 }
