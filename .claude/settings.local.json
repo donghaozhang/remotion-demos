@@ -68,7 +68,8 @@
       "Bash(powershell -Command \"Stop-Process -Name ''QCut AI Video Editor'' -Force -ErrorAction SilentlyContinue; Start-Sleep -Seconds 3\")",
       "Bash(git pull:*)",
       "Bash(git merge:*)",
-      "Bash(git rev-parse:*)"
+      "Bash(git rev-parse:*)",
+      "Bash(gh pr list:*)"
     ]
   }
 }
