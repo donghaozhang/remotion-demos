@@ -59,7 +59,13 @@
       "mcp__context7__resolve-library-id",
       "mcp__context7__query-docs",
       "WebFetch(domain:remotion.dev)",
-      "Bash(bun build:*)"
+      "Bash(bun build:*)",
+      "Bash(npx ultracite@latest --config)",
+      "Bash(cd:*)",
+      "Bash(explorer \"d:\\\\AI_play\\\\AI_Code\\\\build_qcut\")",
+      "Bash(tasklist:*)",
+      "Bash(taskkill:*)",
+      "Bash(powershell -Command \"Stop-Process -Name ''QCut AI Video Editor'' -Force -ErrorAction SilentlyContinue; Start-Sleep -Seconds 3\")"
     ]
   }
 }
